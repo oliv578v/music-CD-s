@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Music CD Collection</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="header">
+      <h1>Music CDs</h1>
+    </header>
+    <form id="cd-form">
+      <input type="text" id="title" placeholder="CD Title" required />
+      <input type="text" id="author" placeholder="Author" required />
+      <input type="number" id="year" placeholder="Year" required />
+      <button type="submit">Add</button>
+    </form>
+
+    <table id="cd-table">
+      <thead>
+        <tr>
+          <th>Title</th>
+          <th>Author</th>
+          <th>Year</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody id="cd-table-body">
+
+      </tbody>
+    </table>
+
+  </body>
+</html>
